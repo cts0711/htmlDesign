@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>ShopEase - Online Marketplace</title>
+  <link rel="stylesheet" href="style.css" media="all">
+  
+   
+</head>
+<body>
+
+  <!-- HEADER -->
+  <header>
+    <div class="logo">ShopEase</div>
+
+    <div class="search-bar">
+      <input type="text" placeholder="搜尋商品..." />
+      <button>尋找</button>
+    </div>
+
+    <div class="header-links">
+      <a href="#">登入</a>
+      <a href="#">註冊</a>
+      <a href="#">🛒 購物車 (0)</a>
+    </div>
+  </header>
+
+  <!-- NAVBAR -->
+  <nav>
+    <a href="#">首頁</a>
+    <a href="#">電子產品</a>
+    <a href="#">時尚</a>
+    <a href="#">美妝</a>
+    <a href="#">運動</a>
+    <a href="#">居家生活</a>
+    <a href="#">雜貨</a>
+  </nav>
+
+  <!-- HERO BANNER -->
+  <div class="hero">
+    <h1>歡迎光臨 ShopEase!</h1>
+    <p>以最優惠的價格，找到您所需的一切。立即購物，享超值優惠！</p>
+    <button>立即選購</button>
+  </div>
+
+  <!-- MAIN CONTENT -->
+  <div class="container">
+
+    <!-- CATEGORIES -->
+    <div class="section-title">類別</div>
+    <div class="category-grid">
+      <div class="category-item">
+        <div class="icon">📱</div>
+        <div class="label">電子</div>
+      </div>
+      <div class="category-item">
+        <div class="icon">👗</div>
+        <div class="label">流行</div>
+      </div>
+      <div class="category-item">
+        <div class="icon">💄</div>
+        <div class="label">美妝</div>
+      </div>
+      <div class="category-item">
+        <div class="icon">🏠</div>
+        <div class="label">家居</div>
+      </div>
+      <div class="category-item">
+        <div class="icon">⚽</div>
+        <div class="label">運動</div>
+      </div>
+      <div class="category-item">
+        <div class="icon">🍎</div>
+        <div class="label">雜貨</div>
+      </div>
+      <div class="category-item">
+        <div class="icon">🧸</div>
+        <div class="label">玩具</div>
+      </div>
+      <div class="category-item">
+        <div class="icon">📚</div>
+        <div class="label">書籍</div>
+      </div>
+    </div>
+
+    <!-- PROMO BANNERS -->
+    <div class="promo-row">
+      <div class="promo-banner banner-red">
+        <h3>🔥 今日特賣!</h3>
+        <p>限今日精選商品最高可享 70% 折扣。</p>
+      </div>
+      <div class="promo-banner banner-blue">
+        <h3>🚚 滿額免運</h3>
+        <p>所有訂單滿 $20 即享免運費。買越多，省越多!</p>
+      </div>
+    </div>
+
+    <!-- FLASH SALE PRODUCTS -->
+    <div class="flash-sale-header">
+      <div class="flash-title">⚡ 快閃特惠</div>
+      <div class="countdown">
+        <span id="hours">02</span> :
+        <span id="mins">45</span> :
+        <span id="secs">00</span> :
+        後結束
+      </div>
+    </div>
+
+    <div class="product-grid">
+
+      <div class="product-card">
+        <div class="product-img"><img src="images/headphone.jpg" alt="🎧"></div>
+        <div class="product-info">
+          <div class="product-name">藍芽耳機Prime</div>
+          <div class="product-price">
+            <span class="product-old-price">$80</span>
+            $45
+            <span class="discount-tag">-44%</span>
+          </div>
+          <div class="product-sold">已賣出1,200件</div>
+        </div>
+      </div>
+
+      <div class="product-card">
+        <div class="product-img"><img src="images/descent-mk3i-51-ti-cf-lg.webp" alt="⌚"></div>
+        <div class="product-info">
+          <div class="product-name">第5代智慧手錶</div>
+          <div class="product-price">
+            <span class="product-old-price">$120</span>
+            $79
+            <span class="discount-tag">-34%</span>
+          </div>
+          <div class="product-sold">已賣出890件</div>
+        </div>
+      </div>
+
+      <div class="product-card">
+        <div class="product-img"><img src="images/dualsence.webp" alt="🎮"></div>
+        <div class="product-info">
+          <div class="product-name">遊戲控制器(黑)</div>
+          <div class="product-price">
+            <span class="product-old-price">$60</span>
+            $39
+            <span class="discount-tag">-35%</span>
+          </div>
+          <div class="product-sold">已賣出500件</div>
+        </div>
+      </div>
+
+      <div class="product-card">
+        <div class="product-img"><img src="images/cam.jpg" alt="📷"></div>
+        <div class="product-info">
+          <div class="product-name">4K數位相機</div>
+          <div class="product-price">
+            <span class="product-old-price">$200</span>
+            $149
+            <span class="discount-tag">-26%</span>
+          </div>
+          <div class="product-sold">已賣出320件</div>
+        </div>
+      </div>
+
+      <div class="product-card">
+        <div class="product-img"><img src="images/mon.png" alt="🖥️"></div>
+        <div class="product-info">
+          <div class="product-name">27吋 OLED螢幕</div>
+          <div class="product-price">
+            <span class="product-old-price">$300</span>
+            $199
+            <span class="discount-tag">-34%</span>
+          </div>
+          <div class="product-sold">已賣出210件</div>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- SPACER -->
+    <br /><br />
+
+    <!-- POPULAR PRODUCTS -->
+    <div class="section-title">熱門商品</div>
+
+    <div class="product-grid">
+
+      <div class="product-card">
+        <div class="product-img"><img src="images/shoeS.jpg" alt="👟"></div>
+        <div class="product-info">
+          <div class="product-name">男款跑鞋</div>
+          <div class="product-price">$55</div>
+          <div class="product-sold">已賣出3,400件</div>
+        </div>
+      </div>
+
+      <div class="product-card">
+        <div class="product-img"><img src="images/face.jpg" alt="🧴"></div>
+        <div class="product-info">
+          <div class="product-name">維他命C臉部精華液</div>
+          <div class="product-price">$12</div>
+          <div class="product-sold">已賣出8,000件</div>
+        </div>
+      </div>
+
+      <div class="product-card">
+        <div class="product-img"><img src="images/chair.jpg" alt="🪑"></div>
+        <div class="product-info">
+          <div class="product-name">人體工學辦公椅</div>
+          <div class="product-price">$130</div>
+          <div class="product-sold">已賣出1,100件</div>
+        </div>
+      </div>
+
+      <div class="product-card">
+        <div class="product-img"><img src="images/bag.jpg" alt="🎒"></div>
+        <div class="product-info">
+          <div class="product-name">30L大容量旅行包</div>
+          <div class="product-price">$45</div>
+          <div class="product-sold">已賣出2,600件</div>
+        </div>
+      </div>
+
+      <div class="product-card">
+        <div class="product-img"><img src="images/cook.jpg" alt="🍳"></div>
+        <div class="product-info">
+          <div class="product-name">不沾平底鍋</div>
+          <div class="product-price">$28</div>
+          <div class="product-sold">已賣出5,500件</div>
+        </div>
+      </div>
+
+    </div>
+
+  </div>
+  <!-- end container -->
+
+  <!-- FOOTER -->
+  <footer>
+    <div class="footer-grid">
+      <div class="footer-col">
+        <h4>ShopEase</h4>
+        <ul>
+          <li><a href="#">關於我們</a></li>
+          <li><a href="#">工作機會</a></li>
+          <li><a href="#">部落格</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>顧客服務</h4>
+        <ul>
+          <li><a href="#">服務中心</a></li>
+          <li><a href="#">追蹤訂單</a></li>
+          <li><a href="#">退換貨</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>追蹤我們</h4>
+        <ul>
+          <li><a href="#">Facebook</a></li>
+          <li><a href="#">Instagram</a></li>
+          <li><a href="#">Twitter</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      © 2025 ShopEase. All rights reserved.
+    </div>
+  </footer>
+
+  <!-- COUNTDOWN TIMER SCRIPT -->
+  <script>
+    let totalSeconds = 2 * 3600 + 45 * 60;
+
+    function updateTimer() {
+      let h = Math.floor(totalSeconds / 3600);
+      let m = Math.floor((totalSeconds % 3600) / 60);
+      let s = totalSeconds % 60;
+
+      document.getElementById("hours").textContent = String(h).padStart(2, "0");
+      document.getElementById("mins").textContent  = String(m).padStart(2, "0");
+      document.getElementById("secs").textContent  = String(s).padStart(2, "0");
+
+      if (totalSeconds > 0) totalSeconds--;
+    }
+
+    setInterval(updateTimer, 1000);
+    updateTimer();
+  </script>
+
+</body>
+</html>
